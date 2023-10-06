@@ -1,0 +1,38 @@
+.hack47-50-inputs {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .hack47-50-inputs {
+    display: block;
+  }
+}
+
+.hack-form-input {
+  margin-bottom: 0rem;
+
+  border-width: 0rem 0rem 0.125rem;
+  border-bottom-style: solid;
+  border-bottom-color: hsla(0, 0.00%, 6.67%, 1.00);
+  border-radius: 0rem;
+
+  transition: border-color 100ms ease;
+
+  font-size: 1.125rem;
+}
+
+.hack-form-input:focus {
+  border-bottom-color: #e9e6ed;
+}
+
+.hack-form-input::placeholder {
+  color: rgba(36, 12, 46, 0.9);
+  font-size: 0.875rem;
+}
+
+.hack-form-input.mr-30 {
+  margin-right: 1.875rem;
+  margin-bottom: 0rem;
+}

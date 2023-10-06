@@ -1,0 +1,111 @@
+.custom-order {
+  position: relative;
+
+  display: flex;
+  height: 45px;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 auto;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+
+  border-style: none;
+  border-width: 0.8px;
+  border-color: hsla(0, 0.00%, 49.33%, 0.94);
+  border-radius: 8em;
+
+  background-color: hsla(212.38095238095235, 0.00%, 100.00%, 1.00);
+
+  opacity: 1;
+
+  transition: background-color 500ms cubic-bezier(.165, .84, .44, 1);
+
+  font-family: Inter;
+  color: hsla(221.99999999999997, 0.00%, 14.67%, 1.00);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: normal;
+  white-space: nowrap;
+
+  cursor: pointer;
+  mix-blend-mode: normal;
+}
+
+@media screen and (min-width: 1440px) {
+  .custom-order {
+    position: relative;
+
+    height: 45px;
+    padding: 12px 25px;
+    grid-column-gap: 0px;
+
+    border-radius: 20em;
+
+    opacity: 1;
+
+    transition: background-color 200ms ease;
+
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .custom-order:hover {
+    background-color: #c7e1ff;
+
+    opacity: 1;
+    outline-color: hsla(228, 0.00%, 100.00%, 1.00);
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 3px;
+
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+
+    mix-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .custom-order:hover {
+    border-color: hsla(0, 0.00%, 100.00%, 0.00);
+  }
+}
+
+.custom-order:hover {
+  border-style: none;
+  background-color: hsla(208.30188679245282, 100.00%, 89.61%, 1.00);
+  opacity: 1;
+  color: hsla(204, 75.00%, 20.19%, 1.00);
+  mix-blend-mode: normal;
+}
+
+.custom-order:active {
+  background-color: hsla(208, 58.09%, 80.91%, 1.00);
+  color: hsla(204, 64.71%, 16.19%, 1.00);
+}
+
+@media screen and (max-width: 767px) {
+  .custom-order {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .custom-order {
+    overflow: hidden;
+    width: 80%;
+    height: 45px;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    align-self: center;
+
+    border-radius: 20em;
+
+    font-size: 14px;
+  }
+}

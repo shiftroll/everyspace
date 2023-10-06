@@ -1,0 +1,98 @@
+.color-selector {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  display: block;
+  overflow: visible;
+  width: auto;
+  height: 36px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: center;
+  flex: 0 auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  border: 3px none #ececec;
+  border-radius: 20em;
+
+  transition: border-color 200ms ease;
+
+  cursor: pointer;
+  object-fit: fill;
+}
+
+.color-selector:hover {
+  border-color: #386eac;
+}
+
+.color-selector:active {
+  border-color: #334861;
+}
+
+@media screen and (max-width: 991px) {
+  .color-selector {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .color-selector {
+    width: 30px;
+    height: auto;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsla(0, 0.00%, 92.67%, 1.00);
+    border-radius: 20em;
+
+    transition: border-color 200ms ease;
+
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .color-selector:hover {
+    height: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsla(212.17391304347828, 50.84%, 44.64%, 1.00);
+    border-radius: 20em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .color-selector:active {
+    width: 30px;
+    height: auto;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsla(212.60869565217394, 31.08%, 29.02%, 1.00);
+    border-radius: 20em;
+
+    line-height: 16px;
+  }
+}
+
+.dark-grey {
+  position: relative;
+}
+
+.color-selector.light-grey {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.light-grey {
+  position: relative;
+}

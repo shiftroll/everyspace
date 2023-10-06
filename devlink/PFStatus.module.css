@@ -1,0 +1,23 @@
+.text-block-77 {
+  position: relative;
+  z-index: auto;
+
+  display: flex;
+  align-items: center;
+
+  font-family: Inter;
+  color: hsla(228, 0.00%, 100.00%, 1.00);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 479px) {
+  .text-block-77 {
+    z-index: 9999;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
