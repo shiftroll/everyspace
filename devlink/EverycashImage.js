@@ -1,7 +1,5 @@
 import React from "react";
 import * as _Builtin from "./_Builtin";
-import * as _utils from "./utils";
-import _styles from "./EverycashImage.module.css";
 
 export function EverycashImage({
   as: _Component = _Builtin.Image,
@@ -9,7 +7,7 @@ export function EverycashImage({
 }) {
   return (
     <_Component
-      className={_utils.cx(_styles, "pro-image")}
+      className="pro-image"
       loading="eager"
       width="auto"
       height="auto"

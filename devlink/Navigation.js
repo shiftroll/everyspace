@@ -1,12 +1,10 @@
 import React from "react";
 import * as _Builtin from "./_Builtin";
-import * as _utils from "./utils";
-import _styles from "./Navigation.module.css";
 
 export function Navigation({ as: _Component = _Builtin.NavbarWrapper }) {
   return (
     <_Component
-      className={_utils.cx(_styles, "navigation")}
+      className="navigation"
       tag="div"
       data-collapse="medium"
       data-animation="default"
@@ -22,18 +20,15 @@ export function Navigation({ as: _Component = _Builtin.NavbarWrapper }) {
         noScroll: false,
       }}
     >
-      <_Builtin.Block
-        className={_utils.cx(_styles, "navigation-items")}
-        tag="div"
-      >
+      <_Builtin.Block className="navigation-items" tag="div">
         <_Builtin.NavbarBrand
-          className={_utils.cx(_styles, "logo-link")}
+          className="logo-link"
           options={{
             href: "#",
           }}
         >
           <_Builtin.Image
-            className={_utils.cx(_styles, "logo-image")}
+            className="logo-image"
             width="65"
             height="auto"
             loading="auto"
@@ -41,17 +36,14 @@ export function Navigation({ as: _Component = _Builtin.NavbarWrapper }) {
             src="https://uploads-ssl.webflow.com/5c6eefaaeddf9248ac13bc72/5c6ef116eddf92775813c297_store-logo%402x.png"
           />
         </_Builtin.NavbarBrand>
-        <_Builtin.Block
-          className={_utils.cx(_styles, "navigation-wrap")}
-          tag="div"
-        >
+        <_Builtin.Block className="navigation-wrap" tag="div">
           <_Builtin.NavbarMenu
-            className={_utils.cx(_styles, "navigation-items")}
+            className="navigation-items"
             tag="nav"
             role="navigation"
           >
             <_Builtin.NavbarLink
-              className={_utils.cx(_styles, "navigation-item")}
+              className="navigation-item"
               options={{
                 href: "#",
               }}
@@ -59,7 +51,7 @@ export function Navigation({ as: _Component = _Builtin.NavbarWrapper }) {
               {"Products"}
             </_Builtin.NavbarLink>
             <_Builtin.NavbarLink
-              className={_utils.cx(_styles, "navigation-item")}
+              className="navigation-item"
               options={{
                 href: "#",
               }}
@@ -67,7 +59,7 @@ export function Navigation({ as: _Component = _Builtin.NavbarWrapper }) {
               {"About"}
             </_Builtin.NavbarLink>
             <_Builtin.NavbarLink
-              className={_utils.cx(_styles, "navigation-item")}
+              className="navigation-item"
               options={{
                 href: "#",
               }}
@@ -76,12 +68,9 @@ export function Navigation({ as: _Component = _Builtin.NavbarWrapper }) {
             </_Builtin.NavbarLink>
           </_Builtin.NavbarMenu>
           <_Builtin.NotSupported _atom="CommerceCartWrapper" />
-          <_Builtin.NavbarButton
-            className={_utils.cx(_styles, "menu-button")}
-            tag="div"
-          >
+          <_Builtin.NavbarButton className="menu-button" tag="div">
             <_Builtin.Image
-              className={_utils.cx(_styles, "menu-icon")}
+              className="menu-icon"
               width="22"
               height="auto"
               loading="auto"

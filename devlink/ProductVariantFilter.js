@@ -1,60 +1,48 @@
 import React from "react";
 import * as _Builtin from "./_Builtin";
-import * as _utils from "./utils";
-import _styles from "./ProductVariantFilter.module.css";
 
 export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
   return (
-    <_Component className={_utils.cx(_styles, "product-var-wrapper")} tag="div">
-      <_Builtin.Block
-        className={_utils.cx(_styles, "color-container")}
-        tag="div"
-      >
+    <_Component
+      className="product-var-wrapper"
+      tag="div"
+      bind="d5dde054-e7b6-98ee-cb23-3ba3756e597b"
+    >
+      <_Builtin.Block className="color-container" tag="div">
         <_Builtin.DropdownWrapper
-          className={_utils.cx(_styles, "category-dropdown")}
+          className="category-dropdown"
           tag="div"
-          bind="f7bb0970-8a7c-8713-0060-c338968c525e"
+          bind="d5dde054-e7b6-98ee-cb23-3ba3756e597d"
           delay="0"
           hover=""
         >
           <_Builtin.DropdownToggle
-            className={_utils.cx(_styles, "style-picker-dropdown", "light")}
+            className="style-picker-dropdown light"
             tag="div"
           >
             <_Builtin.Block
-              className={_utils.cx(_styles, "text-block-81", "dark")}
+              className="text-block-81 dark"
               tag="div"
               fs-cmsfilter-element="tag-text"
             >
               {"Pick Styles"}
             </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "chevron-circle")}
-              tag="div"
-            >
+            <_Builtin.Block className="chevron-circle" tag="div">
               <_Builtin.Icon
-                className={_utils.cx(_styles, "chevron-down", "black")}
+                className="chevron-down black"
                 widget={{
                   type: "icon",
                   icon: "dropdown-toggle",
                 }}
-                bind="f7bb0970-8a7c-8713-0060-c338968c5263"
+                bind="d5dde054-e7b6-98ee-cb23-3ba3756e5982"
               />
             </_Builtin.Block>
           </_Builtin.DropdownToggle>
-          <_Builtin.DropdownList
-            className={_utils.cx(_styles, "dropdown-list", "white")}
-            tag="nav"
-          >
-            <_Builtin.Block
-              className={_utils.cx(_styles, "checkbox-wrapper", "white")}
-              tag="div"
-            >
-              <_Builtin.FormCheckboxWrapper
-                className={_utils.cx(_styles, "style-checkbox-1", "light")}
-              >
+          <_Builtin.DropdownList className="dropdown-list white" tag="nav">
+            <_Builtin.Block className="checkbox-wrapper white" tag="div">
+              <_Builtin.FormCheckboxWrapper className="style-checkbox-1 light">
                 <_Builtin.FormCheckboxInput
-                  className={_utils.cx(_styles, "checkbox-style-1")}
+                  className="checkbox-style-1"
                   inputType="custom"
                   dyn={{
                     bind: {},
@@ -65,25 +53,24 @@ export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
                   required={false}
                   checked={true}
                   fs-mirrorinput-element="trigger-1"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e5986"
                   id="Style-Checkbox-1"
                 />
                 <_Builtin.FormInlineLabel
-                  className={_utils.cx(_styles, "style-label", "black")}
+                  className="style-label black"
                   dyn={{
                     bind: {},
                   }}
                   htmlFor="Category "
                   fs-cmsfilter-field="accent-1"
-                  bind="1073b7c0-3f18-7c12-6c28-e729aca8f99e"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e5987"
                 >
                   {"Nightfall"}
                 </_Builtin.FormInlineLabel>
               </_Builtin.FormCheckboxWrapper>
-              <_Builtin.FormCheckboxWrapper
-                className={_utils.cx(_styles, "style-checkbox-1", "light")}
-              >
+              <_Builtin.FormCheckboxWrapper className="style-checkbox-1 light">
                 <_Builtin.FormCheckboxInput
-                  className={_utils.cx(_styles, "checkbox-style-1")}
+                  className="checkbox-style-1"
                   inputType="custom"
                   dyn={{
                     bind: {},
@@ -94,16 +81,17 @@ export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
                   required={false}
                   checked={true}
                   fs-mirrorinput-element="trigger-2"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e598a"
                   id="Style-Checkbox-1"
                 />
                 <_Builtin.FormInlineLabel
-                  className={_utils.cx(_styles, "style-label", "black")}
+                  className="style-label black"
                   dyn={{
                     bind: {},
                   }}
                   htmlFor="Category "
                   fs-cmsfilter-field="accent-1"
-                  bind="1073b7c0-3f18-7c12-6c28-e729aca8f99e"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e598b"
                 >
                   {"Purewhite"}
                 </_Builtin.FormInlineLabel>
@@ -133,11 +121,9 @@ export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
                   },
                 ]}
               />
-              <_Builtin.FormCheckboxWrapper
-                className={_utils.cx(_styles, "style-checkbox-1", "light")}
-              >
+              <_Builtin.FormCheckboxWrapper className="style-checkbox-1 light">
                 <_Builtin.FormCheckboxInput
-                  className={_utils.cx(_styles, "checkbox-style-1")}
+                  className="checkbox-style-1"
                   inputType="custom"
                   dyn={{
                     bind: {},
@@ -148,25 +134,24 @@ export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
                   required={false}
                   checked={true}
                   fs-mirrorinput-element="trigger-3"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e598f"
                   id="Style-Checkbox-1"
                 />
                 <_Builtin.FormInlineLabel
-                  className={_utils.cx(_styles, "style-label", "black")}
+                  className="style-label black"
                   dyn={{
                     bind: {},
                   }}
                   htmlFor="Category "
                   fs-cmsfilter-field="accent-1"
-                  bind="1073b7c0-3f18-7c12-6c28-e729aca8f99e"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e5990"
                 >
                   {"Spectrum"}
                 </_Builtin.FormInlineLabel>
               </_Builtin.FormCheckboxWrapper>
-              <_Builtin.FormCheckboxWrapper
-                className={_utils.cx(_styles, "style-checkbox-1", "light")}
-              >
+              <_Builtin.FormCheckboxWrapper className="style-checkbox-1 light">
                 <_Builtin.FormCheckboxInput
-                  className={_utils.cx(_styles, "checkbox-style-1")}
+                  className="checkbox-style-1"
                   inputType="custom"
                   dyn={{
                     bind: {},
@@ -177,16 +162,17 @@ export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
                   required={false}
                   checked={true}
                   fs-mirrorinput-element="trigger-4"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e5993"
                   id="Style-Checkbox-1"
                 />
                 <_Builtin.FormInlineLabel
-                  className={_utils.cx(_styles, "style-label", "black")}
+                  className="style-label black"
                   dyn={{
                     bind: {},
                   }}
                   htmlFor="Category "
                   fs-cmsfilter-field="accent-1"
-                  bind="1073b7c0-3f18-7c12-6c28-e729aca8f99e"
+                  bind="d5dde054-e7b6-98ee-cb23-3ba3756e5994"
                 >
                   {"Woodsense"}
                 </_Builtin.FormInlineLabel>
@@ -194,187 +180,117 @@ export function ProductVariantFilter({ as: _Component = _Builtin.Block }) {
             </_Builtin.Block>
           </_Builtin.DropdownList>
         </_Builtin.DropdownWrapper>
-        <_Builtin.Block className={_utils.cx(_styles, "text-15")} tag="div">
+        <_Builtin.Block className="text-15" tag="div">
           {"Colorways"}
         </_Builtin.Block>
-        <_Builtin.Block
-          className={_utils.cx(_styles, "color-swatches")}
-          tag="div"
-        >
+        <_Builtin.Block className="color-swatches" tag="div">
           <_Builtin.Image
-            className={_utils.cx(_styles, "", "color-selector")}
+            className=" color-selector"
             loading="lazy"
             width="auto"
             height="auto"
             alt="__wf_reserved_inherit"
-            bind="a7b5a698-991c-6c1e-f263-0527d400acc1"
             src="https://uploads-ssl.webflow.com/63fc0698f87ebe53ab32acc8/6400180d50edd80b98cbc936_Vectors-Wrapper.svg"
           />
           <_Builtin.Image
-            className={_utils.cx(_styles, "", "color-selector")}
+            className=" color-selector"
             loading="lazy"
             width="auto"
             height="auto"
             alt="__wf_reserved_inherit"
-            bind="a7b5a698-991c-6c1e-f263-0527d400acc1"
             src="https://uploads-ssl.webflow.com/63fc0698f87ebe53ab32acc8/6400180d50edd80b98cbc936_Vectors-Wrapper.svg"
           />
           <_Builtin.Image
-            className={_utils.cx(_styles, "", "color-selector")}
+            className=" color-selector"
             loading="lazy"
             width="auto"
             height="auto"
             alt="__wf_reserved_inherit"
-            bind="a7b5a698-991c-6c1e-f263-0527d400acc1"
             src="https://uploads-ssl.webflow.com/63fc0698f87ebe53ab32acc8/6400180d50edd80b98cbc936_Vectors-Wrapper.svg"
           />
           <_Builtin.Image
-            className={_utils.cx(_styles, "", "color-selector")}
+            className=" color-selector"
             loading="lazy"
             width="auto"
             height="auto"
             alt="__wf_reserved_inherit"
-            bind="a7b5a698-991c-6c1e-f263-0527d400acc1"
             src="https://uploads-ssl.webflow.com/63fc0698f87ebe53ab32acc8/6400180d50edd80b98cbc936_Vectors-Wrapper.svg"
           />
         </_Builtin.Block>
       </_Builtin.Block>
       <_Builtin.FormButton
-        className={_utils.cx(_styles, "submit-button-6")}
+        className="submit-button-6"
         type="submit"
         value="Submit"
         data-wait="Please wait..."
       />
-      <_Builtin.Block
-        className={_utils.cx(_styles, "sizes-container")}
-        tag="div"
-      >
-        <_Builtin.Block className={_utils.cx(_styles, "", "text-15")} tag="div">
+      <_Builtin.Block className="sizes-container" tag="div">
+        <_Builtin.Block className=" text-15" tag="div">
           {"Sizes"}
         </_Builtin.Block>
-        <_Builtin.Block
-          className={_utils.cx(_styles, "size-buttons")}
-          tag="div"
-        >
-          <_Builtin.Block className={_utils.cx(_styles, "selector")} tag="div">
-            <_Builtin.Block className={_utils.cx(_styles, "size")} tag="div">
+        <_Builtin.Block className="size-buttons" tag="div">
+          <_Builtin.Block className="selector" tag="div">
+            <_Builtin.Block className="size" tag="div">
               {"1,8 m"}
             </_Builtin.Block>
           </_Builtin.Block>
-          <_Builtin.Block className={_utils.cx(_styles, "selector")} tag="div">
-            <_Builtin.Block className={_utils.cx(_styles, "size")} tag="div">
+          <_Builtin.Block className="selector" tag="div">
+            <_Builtin.Block className="size" tag="div">
               {"2,4 m"}
             </_Builtin.Block>
           </_Builtin.Block>
-          <_Builtin.Block
-            className={_utils.cx(_styles, "", "selector")}
-            tag="div"
-          >
-            <_Builtin.Block
-              className={_utils.cx(_styles, "", "size")}
-              tag="div"
-            >
+          <_Builtin.Block className=" selector" tag="div">
+            <_Builtin.Block className=" size" tag="div">
               {"3 m"}
             </_Builtin.Block>
           </_Builtin.Block>
         </_Builtin.Block>
       </_Builtin.Block>
-      <_Builtin.Block
-        className={_utils.cx(_styles, "sizes-container-2")}
-        tag="div"
-      >
-        <_Builtin.Block className={_utils.cx(_styles, "", "text-15")} tag="div">
+      <_Builtin.Block className="sizes-container-2" tag="div">
+        <_Builtin.Block className=" text-15" tag="div">
           {"Stove Sizes (mm)"}
         </_Builtin.Block>
-        <_Builtin.Block
-          className={_utils.cx(_styles, "size-buttons-2")}
-          tag="div"
-        >
-          <_Builtin.Block
-            className={_utils.cx(_styles, "selector-2")}
-            tag="div"
-          >
-            <_Builtin.Block className={_utils.cx(_styles, "size")} tag="div">
+        <_Builtin.Block className="size-buttons-2" tag="div">
+          <_Builtin.Block className="selector-2" tag="div">
+            <_Builtin.Block className="size" tag="div">
               {"295 x 510 "}
             </_Builtin.Block>
           </_Builtin.Block>
-          <_Builtin.Block
-            className={_utils.cx(_styles, "selector-2")}
-            tag="div"
-          >
-            <_Builtin.Block
-              className={_utils.cx(_styles, "", "size")}
-              tag="div"
-            >
+          <_Builtin.Block className="selector-2" tag="div">
+            <_Builtin.Block className=" size" tag="div">
               {"730 x 420 "}
             </_Builtin.Block>
           </_Builtin.Block>
-          <_Builtin.Block
-            className={_utils.cx(_styles, "", "selector-2")}
-            tag="div"
-          >
-            <_Builtin.Block
-              className={_utils.cx(_styles, "", "size")}
-              tag="div"
-            >
+          <_Builtin.Block className=" selector-2" tag="div">
+            <_Builtin.Block className=" size" tag="div">
               {"865 x 510 "}
             </_Builtin.Block>
           </_Builtin.Block>
         </_Builtin.Block>
       </_Builtin.Block>
-      <_Builtin.Block
-        className={_utils.cx(_styles, "sizes-container-3")}
-        tag="div"
-      >
-        <_Builtin.Block className={_utils.cx(_styles, "", "text-15")} tag="div">
+      <_Builtin.Block className="sizes-container-3" tag="div">
+        <_Builtin.Block className=" text-15" tag="div">
           {"Sink Sizes (mm)"}
         </_Builtin.Block>
-        <_Builtin.Block className={_utils.cx(_styles, "grid-2-x-2")} tag="div">
-          <_Builtin.Block
-            className={_utils.cx(_styles, "_2-columns", "f2wf-columns-3")}
-            tag="div"
-          >
-            <_Builtin.Block
-              className={_utils.cx(_styles, "selector-2")}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "", "size")}
-                tag="div"
-              >
+        <_Builtin.Block className="grid-2-x-2" tag="div">
+          <_Builtin.Block className="_2-columns f2wf-columns-3" tag="div">
+            <_Builtin.Block className="selector-2" tag="div">
+              <_Builtin.Block className=" size" tag="div">
                 {"295 x 510"}
               </_Builtin.Block>
             </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "selector-2")}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "", "size")}
-                tag="div"
-              >
+            <_Builtin.Block className="selector-2" tag="div">
+              <_Builtin.Block className=" size" tag="div">
                 {"295 x 510"}
               </_Builtin.Block>
             </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "selector-2")}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "", "size")}
-                tag="div"
-              >
+            <_Builtin.Block className="selector-2" tag="div">
+              <_Builtin.Block className=" size" tag="div">
                 {"295 x 510"}
               </_Builtin.Block>
             </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "", "selector-2")}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "", "size")}
-                tag="div"
-              >
+            <_Builtin.Block className=" selector-2" tag="div">
+              <_Builtin.Block className=" size" tag="div">
                 {"295 x 510"}
               </_Builtin.Block>
             </_Builtin.Block>

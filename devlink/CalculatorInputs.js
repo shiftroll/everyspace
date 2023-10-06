@@ -1,13 +1,15 @@
 import React from "react";
 import * as _Builtin from "./_Builtin";
-import * as _utils from "./utils";
-import _styles from "./CalculatorInputs.module.css";
 
 export function CalculatorInputs({ as: _Component = _Builtin.Block }) {
   return (
-    <_Component className={_utils.cx(_styles, "hack47-50-inputs")} tag="div">
+    <_Component
+      className="hack47-50-inputs"
+      tag="div"
+      bind="33b7ef47-3077-5cc9-31c8-db13efc2ebff"
+    >
       <_Builtin.FormTextInput
-        className={_utils.cx(_styles, "hack-form-input", "mr-30")}
+        className="hack-form-input mr-30"
         autoFocus={false}
         maxLength={256}
         name="Fee-per-Hour"
@@ -19,7 +21,7 @@ export function CalculatorInputs({ as: _Component = _Builtin.Block }) {
         id="input-fee-per-hour"
       />
       <_Builtin.FormTextInput
-        className={_utils.cx(_styles, "hack-form-input")}
+        className="hack-form-input"
         autoFocus={false}
         maxLength={256}
         name="Total-Hour"
